@@ -13,8 +13,6 @@ import org.junit.runners.JUnit4;
  * @author user@example.com (Author)
  */
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 @RunWith(JUnit4.class)
 public class MainTest {
     Main t;
