@@ -24,8 +24,8 @@ public class Main {
         scan.close();
         assert (a > 0 && b > 0 && c > 0) : "length error!"; // assertion
         assert (a + b > c || b + c > a || a + c > b) : "relation error";
-        CheckTriangle t = new CheckTriangle();
-        t.checkTriangle(a, b, c);
+        Main t = new Main();
+        t.Main(a, b, c);
     }
 
     /**
