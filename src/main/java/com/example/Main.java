@@ -25,7 +25,7 @@ public class Main {
         assert (a > 0 && b > 0 && c > 0) : "length error!"; // assertion
         assert (a + b > c || b + c > a || a + c > b) : "relation error";
         Main t = new Main();
-        t.Main(a, b, c);
+        t.checkTriangle(a, b, c);
     }
 
     /**

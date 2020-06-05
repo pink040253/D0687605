@@ -17,6 +17,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @RunWith(JUnit4.class)
 public class MainTest {
+    Main t;
 
     @Test(expected = Exception.class)
         public void testCheckStandard() throws Exception {
