@@ -8,5 +8,5 @@ jdk:
 install:
     - gradle assemble
 
-script:
+Script:
     - gradle test
